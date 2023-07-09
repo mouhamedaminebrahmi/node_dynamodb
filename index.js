@@ -5,7 +5,7 @@ const { addOrUpdateCharacter, getCharacters, deleteCharacter, getCharacterById }
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Hello World brahmi git");
+  res.send("Hello World brahmi git 1");
 });
 
 app.get("/characters", async (req, res) => {
